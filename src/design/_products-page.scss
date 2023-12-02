@@ -1,0 +1,21 @@
+.products-page {
+  .container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 27px;
+    row-gap: 24px;
+
+    li {
+      border: 1px solid $border;
+      border-radius: 20px;
+      padding: 10px;
+    }
+  }
+}

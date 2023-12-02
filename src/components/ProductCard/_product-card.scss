@@ -1,0 +1,33 @@
+.product-card {
+    .image-container {
+      width: 260px;
+      height: 168px;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  
+    .name,
+    .price {
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+  
+    .name {
+      color: $product-name;
+    }
+  
+    .price {
+      color: $product-price;
+    }
+  
+    .star-rating {
+      span {
+        font-size: 18px;
+        color: $star;
+      }
+    }
+  }
